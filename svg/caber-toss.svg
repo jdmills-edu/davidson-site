@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Caber Toss Athlete Silhouette -->
+  <circle cx="100" cy="28" r="14" fill="#b30738"/>
+  <!-- Body -->
+  <path d="M100 42 L100 100" stroke="#b30738" stroke-width="6" stroke-linecap="round"/>
+  <!-- Arms holding caber -->
+  <path d="M100 60 L72 48 L68 20" stroke="#b30738" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M100 60 L128 48 L132 20" stroke="#b30738" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Caber (log) -->
+  <rect x="88" y="2" width="24" height="6" rx="3" fill="#8B6914" transform="rotate(-5, 100, 5)"/>
+  <line x1="100" y1="5" x2="100" y2="-60" stroke="#8B6914" stroke-width="8" stroke-linecap="round" transform="rotate(15, 100, 5)"/>
+  <!-- Kilt -->
+  <path d="M88 90 L78 120 L100 115 L122 120 L112 90 Z" fill="#1a5632"/>
+  <line x1="92" y1="92" x2="88" y2="115" stroke="#b30738" stroke-width="1.5"/>
+  <line x1="96" y1="92" x2="94" y2="115" stroke="#b30738" stroke-width="1.5"/>
+  <line x1="104" y1="92" x2="106" y2="115" stroke="#b30738" stroke-width="1.5"/>
+  <line x1="108" y1="92" x2="112" y2="115" stroke="#b30738" stroke-width="1.5"/>
+  <!-- Legs -->
+  <path d="M92 110 L78 160 L72 175" stroke="#b30738" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M108 110 L118 160 L124 175" stroke="#b30738" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Feet -->
+  <path d="M72 175 L62 178 L72 180" stroke="#b30738" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M124 175 L134 178 L124 180" stroke="#b30738" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Ground -->
+  <ellipse cx="100" cy="185" rx="60" ry="4" fill="#e0d8cf" opacity="0.6"/>
+</svg>

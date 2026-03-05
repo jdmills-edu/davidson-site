@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Crossed Highland Swords for Dancing Section -->
+  <!-- Sword 1 (left to right) -->
+  <g transform="rotate(-45, 100, 100)">
+    <!-- Blade -->
+    <rect x="20" y="96" width="160" height="8" rx="2" fill="#888"/>
+    <rect x="20" y="97" width="160" height="3" fill="#aaa" opacity="0.5"/>
+    <!-- Guard -->
+    <rect x="90" y="82" width="8" height="36" rx="4" fill="#8B6914"/>
+    <rect x="82" y="92" width="24" height="16" rx="3" fill="#8B6914"/>
+    <!-- Grip -->
+    <rect x="92" y="108" width="4" height="20" fill="#5C4033"/>
+    <!-- Pommel -->
+    <circle cx="94" cy="132" r="6" fill="#8B6914"/>
+  </g>
+  <!-- Sword 2 (right to left) -->
+  <g transform="rotate(45, 100, 100)">
+    <!-- Blade -->
+    <rect x="20" y="96" width="160" height="8" rx="2" fill="#888"/>
+    <rect x="20" y="97" width="160" height="3" fill="#aaa" opacity="0.5"/>
+    <!-- Guard -->
+    <rect x="90" y="82" width="8" height="36" rx="4" fill="#8B6914"/>
+    <rect x="82" y="92" width="24" height="16" rx="3" fill="#8B6914"/>
+    <!-- Grip -->
+    <rect x="92" y="108" width="4" height="20" fill="#5C4033"/>
+    <!-- Pommel -->
+    <circle cx="94" cy="132" r="6" fill="#8B6914"/>
+  </g>
+</svg>

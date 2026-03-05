@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Scottish Thistle -->
+  <!-- Stem -->
+  <path d="M100 195 Q98 160 100 130" stroke="#1a5632" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Leaves on stem -->
+  <path d="M100 170 Q80 160 70 165 Q78 155 100 160" fill="#1a5632"/>
+  <path d="M100 155 Q120 145 130 150 Q122 140 100 145" fill="#1a5632"/>
+  <path d="M100 140 Q82 132 72 138 Q80 128 100 133" fill="#1a5632"/>
+  <!-- Spiky leaf tips -->
+  <circle cx="70" cy="165" r="2" fill="#1a5632"/>
+  <circle cx="130" cy="150" r="2" fill="#1a5632"/>
+  <circle cx="72" cy="138" r="2" fill="#1a5632"/>
+  <!-- Thistle base (calyx) -->
+  <path d="M82 125 Q85 115 90 110 L100 108 L110 110 Q115 115 118 125 Q110 128 100 130 Q90 128 82 125 Z" fill="#1a5632"/>
+  <!-- Spikes on calyx -->
+  <path d="M82 125 L75 128" stroke="#1a5632" stroke-width="2" stroke-linecap="round"/>
+  <path d="M85 118 L78 115" stroke="#1a5632" stroke-width="2" stroke-linecap="round"/>
+  <path d="M118 125 L125 128" stroke="#1a5632" stroke-width="2" stroke-linecap="round"/>
+  <path d="M115 118 L122 115" stroke="#1a5632" stroke-width="2" stroke-linecap="round"/>
+  <!-- Thistle flower (purple crown) -->
+  <path d="M88 108 Q86 90 82 75 Q86 78 90 76 Q88 65 86 55 Q90 60 94 58 Q92 48 92 38 Q96 45 100 42 Q104 45 108 38 Q108 48 106 58 Q110 60 114 55 Q112 65 110 76 Q114 78 118 75 Q114 90 112 108" fill="#b30738"/>
+  <!-- Flower detail lines -->
+  <line x1="92" y1="105" x2="90" y2="60" stroke="#8a0530" stroke-width="1" opacity="0.5"/>
+  <line x1="96" y1="105" x2="95" y2="50" stroke="#8a0530" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="108" x2="100" y2="45" stroke="#8a0530" stroke-width="1" opacity="0.5"/>
+  <line x1="104" y1="105" x2="105" y2="50" stroke="#8a0530" stroke-width="1" opacity="0.5"/>
+  <line x1="108" y1="105" x2="110" y2="60" stroke="#8a0530" stroke-width="1" opacity="0.5"/>
+  <!-- Small florets at tips -->
+  <circle cx="92" cy="38" r="3" fill="#d4407a"/>
+  <circle cx="100" cy="42" r="3" fill="#d4407a"/>
+  <circle cx="108" cy="38" r="3" fill="#d4407a"/>
+  <circle cx="86" cy="55" r="3" fill="#d4407a"/>
+  <circle cx="114" cy="55" r="3" fill="#d4407a"/>
+  <circle cx="82" cy="75" r="3" fill="#d4407a"/>
+  <circle cx="118" cy="75" r="3" fill="#d4407a"/>
+</svg>

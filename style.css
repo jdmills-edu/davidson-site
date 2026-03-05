@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.7;
+  color: #333;
+  background: #fafaf7;
+}
+
+header {
+  background: #b30738;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+nav {
+  background: #222;
+  padding: 0.8rem 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+main h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #b30738;
+  border-bottom: 2px solid #e0d8cf;
+  padding-bottom: 0.4rem;
+}
+
+main h3 {
+  font-size: 1.2rem;
+  margin: 1.5rem 0 0.5rem;
+  color: #555;
+}
+
+main p {
+  margin-bottom: 1rem;
+}
+
+main ul {
+  margin: 0 0 1rem 1.5rem;
+}
+
+main li {
+  margin-bottom: 0.4rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e0d8cf;
+  border-radius: 6px;
+  padding: 1.2rem;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #b30738;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #888;
+  font-size: 0.85rem;
+  border-top: 1px solid #e0d8cf;
+  margin-top: 3rem;
+}

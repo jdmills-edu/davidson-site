@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Bagpipes Illustration -->
+  <!-- Bag -->
+  <ellipse cx="100" cy="115" rx="40" ry="32" fill="#1a5632"/>
+  <ellipse cx="100" cy="115" rx="40" ry="32" fill="none" stroke="#14442a" stroke-width="2"/>
+  <!-- Tartan pattern on bag -->
+  <line x1="70" y1="100" x2="130" y2="100" stroke="#b30738" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="115" x2="130" y2="115" stroke="#b30738" stroke-width="1.5" opacity="0.5"/>
+  <line x1="70" y1="130" x2="130" y2="130" stroke="#b30738" stroke-width="1.5" opacity="0.5"/>
+  <line x1="80" y1="85" x2="80" y2="145" stroke="#b30738" stroke-width="1.5" opacity="0.5"/>
+  <line x1="100" y1="83" x2="100" y2="147" stroke="#b30738" stroke-width="1.5" opacity="0.5"/>
+  <line x1="120" y1="85" x2="120" y2="145" stroke="#b30738" stroke-width="1.5" opacity="0.5"/>
+  <!-- Clip the tartan to the bag shape -->
+  <!-- Blowpipe (to the left) -->
+  <rect x="35" y="98" width="30" height="7" rx="3" fill="#5C4033"/>
+  <circle cx="35" cy="101" r="5" fill="#5C4033"/>
+  <!-- Chanter (bottom pipe) -->
+  <rect x="96" y="140" width="8" height="45" rx="3" fill="#5C4033"/>
+  <rect x="93" y="178" width="14" height="8" rx="3" fill="#5C4033"/>
+  <!-- Finger holes on chanter -->
+  <circle cx="100" cy="150" r="2" fill="#333"/>
+  <circle cx="100" cy="157" r="2" fill="#333"/>
+  <circle cx="100" cy="164" r="2" fill="#333"/>
+  <circle cx="100" cy="171" r="2" fill="#333"/>
+  <!-- Drone pipes (top, 3 of them) -->
+  <rect x="82" y="20" width="7" height="75" rx="3" fill="#5C4033"/>
+  <rect x="97" y="10" width="7" height="85" rx="3" fill="#5C4033"/>
+  <rect x="112" y="25" width="7" height="70" rx="3" fill="#5C4033"/>
+  <!-- Drone tops (decorative) -->
+  <rect x="79" y="14" width="13" height="10" rx="3" fill="#8B6914"/>
+  <rect x="94" y="4" width="13" height="10" rx="3" fill="#8B6914"/>
+  <rect x="109" y="19" width="13" height="10" rx="3" fill="#8B6914"/>
+  <!-- Decorative cords -->
+  <path d="M86 60 Q100 55 116 60" stroke="#b30738" stroke-width="2" fill="none"/>
+  <circle cx="86" cy="60" r="3" fill="#b30738"/>
+  <circle cx="116" cy="60" r="3" fill="#b30738"/>
+</svg>

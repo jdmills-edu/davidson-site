@@ -98,6 +98,67 @@ main li {
   color: #b30738;
 }
 
+/* Highland Games page styles */
+.hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background: linear-gradient(135deg, #1a5632 0%, #1a5632 40%, #b30738 100%);
+  color: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-banner .hero-title {
+  font-size: 1.8rem;
+  color: #fff;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-banner .hero-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 0;
+}
+
+.hero-svg {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.section-with-svg {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.section-svg {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .hero-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-with-svg {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-svg {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 footer {
   text-align: center;
   padding: 2rem 1rem;
